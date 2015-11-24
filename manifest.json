@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Brotein Tracker",
+    "description": "Track your protein intake throughtout the day Bro! Do you even workout?",
+    "version": "1.0",
+    
+    "browser_action": {
+        "default_icon": "img/brotienIcon.png",
+        "default_popup": "popup.html"
+    },
+    
+    "options_page": "html/options.html",
+    
+    "permissions" : [
+        "storage" 
+    ]
+
+}
